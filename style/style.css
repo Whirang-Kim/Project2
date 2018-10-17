@@ -69,6 +69,7 @@ h3{
   border: 5px solid orange;
   border-radius: 10px 0 10px 0;
   background-color:rgba( 255, 255, 255, 0.5 );
+  padding-bottom:20px;
 }
 .sec_kor strong{
   color:red;
