@@ -5,7 +5,7 @@ body{
 }
 
 .title{
-  background-color: skyblue;
+  background-color: brown;
   height:55px;
   position: fixed;
   top: 0;
@@ -21,6 +21,7 @@ body{
   text-decoration:none; 
   font-family: 'Ubuntu';
   font-size: 30px;
+  color:white;
 }
 .title ul{
   margin:0;
@@ -48,10 +49,11 @@ h3{
   margin-right:20px;
   margin-left:20px;
   padding: 10px;
-  border: 5px solid lightgreen;
-  font-size: 20px;
-  color: white;  
-  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  border: 5px solid deeppink;
+  font-size: 25px;
+  font-family:'cabin';
+  color: black;
+  background-color:rgba( 255, 255, 255, 0.8 );
 }
 .inter_sec iframe{
   display: block;
@@ -66,6 +68,7 @@ h3{
   text-align:center;
   border: 5px solid orange;
   border-radius: 10px 0 10px 0;
+  background-color:rgba( 255, 255, 255, 0.5 );
 }
 .sec_kor strong{
   color:red;
@@ -80,14 +83,35 @@ h3{
   font-family:'cabin';
   font-size:25px;
   padding:10px;
-  color: white;
   border: 5px solid purple;
   border-radius: 10px 0 10px 0;
-  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  color: black;
+  background-color:rgba( 255, 255, 255, 0.8 );
 }
 .sec_fea strong{
   color:red;
 }
 .sec_fea h2{
   text-align:center;
+}
+
+.sec_res1 h2{
+  text-align:center;
+  font-size:30px;
+}
+.sec_res1{
+  background-color:rgba( 255, 255, 255, 0.8 );	
+  text-align:right;
+  padding-right:10px;
+  font-family:'koho';
+  font-size:20px;
+  border:2px solid white;  
+}
+.sec_text{
+  padding-left:10px;
+  margin-top:0;
+  border:2px solid white;
+  background-color:rgba( 255, 255, 255, 0.8 );
+  font-family:'koho';
+  font-size:20px;
 }
