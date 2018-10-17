@@ -1,7 +1,59 @@
 body{
-	background-image: url("bgimg.jpg");
-	color: white;
-	background-repeat: no-repeat;
-	background-size:100%;
-	width:100%;
+  background-image: url("bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.title{
+  background-color: skyblue;
+  height:55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.title a{
+  display: block; 
+  color: black; 
+  text-align: center; 
+  align-content:center;
+  padding: 10px 50px;
+  text-decoration:none; 
+  font-family: 'Ubuntu';
+  font-size: 30px;
+}
+.title ul{
+  margin:0;
+  text-align:center;
+}
+.title li{
+  display: inline-block;
+}
+
+.header{
+  margin-top: 70px;
+  font-family: 'Lobster';
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-align:center;
+}
+
+h3{
+  margin-bottom:10px;
+  text-align:center;
+  font-family: 'Chakra Petch';
+  font-size:30px;
+}
+.inter_sec{
+  margin-right:20px;
+  margin-left:20px;
+  padding: 10px;
+  border: 5px solid black;
+  font-size: 20px;
+  color: white;  
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+.inter_sec iframe{
+  width:400px;
+  height:300px;
 }
