@@ -107,10 +107,13 @@ h3{
   line-height:2.0em;
 }
 .inter_sec iframe{
+  float: left;
   display: block;
   width:600px;
   height:400px;
-  margin: 0 auto;
+}
+.p_tag{
+  clear: left;
 }
 
 .sec_kor{
