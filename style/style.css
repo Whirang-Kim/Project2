@@ -103,7 +103,8 @@ h3{
   font-size: 20px;
   font-family:'cabin';
   color: black;
-  background-color:rgba( 255, 255, 255, 0.8 );
+  background-color:rgba( 255, 255, 255, 0.8 );  
+  line-height:2.0em;
 }
 .inter_sec iframe{
   display: block;
@@ -121,7 +122,8 @@ h3{
   border: 5px solid orange;
   border-radius: 10px 0 10px 0;
   background-color:rgba( 255, 255, 255, 0.5 );
-  padding-bottom:20px;
+  padding-bottom:20px;  
+  line-height:2.0em;
 }
 .sec_kor strong{
   color:red;
@@ -142,6 +144,7 @@ h3{
   border-radius: 10px 0 10px 0;
   color: black;
   background-color:rgba( 255, 255, 255, 0.8 );
+  line-height:2.0em;
 }
 .sec_fea strong{
   color:red;
@@ -162,7 +165,8 @@ h3{
   padding-right:10px;
   font-family:'koho';
   font-size:20px;
-  border:2px solid white;  
+  border:2px solid white;
+  line-height:2.0em;  
 }
 .sec_text{
   margin-right:20px;
@@ -173,4 +177,5 @@ h3{
   background-color:rgba( 255, 255, 255, 0.8 );
   font-family:'koho';
   font-size:20px;
+  line-height:2.0em;
 }
